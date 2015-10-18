@@ -103,7 +103,7 @@ mean_totalNumberOfStepsPerDay
 ## [1] 10766.19
 ```
 
-* the median is :
+* The median is :
 
 
 ```r
@@ -152,11 +152,9 @@ The Number of missing values is :2304.
 
 2.Filling in all of the missing values in the dataset
 
-
-
 3.Create a new dataset that is equal to the original dataset but with the missing data filled in
 
- My strategy is not  sophisticated I use  the mean for that day
+ My strategy  for  missing values in the dataset is not  sophisticated I use  the mean for that day
 
 
 ```r
@@ -190,7 +188,7 @@ mean_totalNumberOfStepsPerDayForActivityFilled
 ## [1] 10766.19
 ```
 
-* the median is :
+* The median is :
 
 
 ```r
@@ -203,7 +201,7 @@ median_totalNumberOfStepsPerDayForActivityFilled
 
 The filling of the missing data is slightly change the histogram however the median and the mean do not change that much.
 
-3.Create a new dataset that is equal to the original dataset but with the missing data filled in.
+
 
 ## Are there differences in activity patterns between weekdays and weekends?
 

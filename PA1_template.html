@@ -294,7 +294,7 @@ median_totalNumberOfStepsPerDay=median(totalNumberOfStepsPerDay$Sum)
 </code></pre>
 
 <ul>
-<li>the median is :</li>
+<li>The median is :</li>
 </ul>
 
 <pre><code class="r">median_totalNumberOfStepsPerDay
@@ -343,7 +343,7 @@ intervalContainMaxSteps=meanOfStepsPerInterval$fiveMinuteInterval[which.max(mean
 
 <p>3.Create a new dataset that is equal to the original dataset but with the missing data filled in</p>
 
-<p>My strategy is not  sophisticated I use  the mean for that day</p>
+<p>My strategy  for  missing values in the dataset is not  sophisticated I use  the mean for that day</p>
 
 <pre><code class="r">activityFilled=activity
 activityFilled$steps[which(is.na(activityFilled$steps))] &lt;- mean(activity$steps, na.rm = T)
@@ -372,7 +372,7 @@ median_totalNumberOfStepsPerDayForActivityFilled=median(totalNumberOfStepsPerDay
 </code></pre>
 
 <ul>
-<li>the median is :</li>
+<li>The median is :</li>
 </ul>
 
 <pre><code class="r">median_totalNumberOfStepsPerDayForActivityFilled
@@ -382,8 +382,6 @@ median_totalNumberOfStepsPerDayForActivityFilled=median(totalNumberOfStepsPerDay
 </code></pre>
 
 <p>The filling of the missing data is slightly change the histogram however the median and the mean do not change that much.</p>
-
-<p>3.Create a new dataset that is equal to the original dataset but with the missing data filled in.</p>
 
 <h2>Are there differences in activity patterns between weekdays and weekends?</h2>
 

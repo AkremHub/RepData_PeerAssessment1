@@ -70,7 +70,7 @@ median_totalNumberOfStepsPerDay=median(totalNumberOfStepsPerDay$Sum)
 mean_totalNumberOfStepsPerDay
 ```
 
-* the median is :
+* The median is :
 
 ```{r echo=TRUE}
 median_totalNumberOfStepsPerDay
@@ -111,11 +111,9 @@ The Number of missing values is :`r missingValues`.
 
 2.Filling in all of the missing values in the dataset
 
-
-
 3.Create a new dataset that is equal to the original dataset but with the missing data filled in
 
- My strategy is not  sophisticated I use  the mean for that day
+ My strategy  for  missing values in the dataset is not  sophisticated I use  the mean for that day
 
 ```{r echo=TRUE}
 activityFilled=activity
@@ -145,7 +143,7 @@ median_totalNumberOfStepsPerDayForActivityFilled=median(totalNumberOfStepsPerDay
 mean_totalNumberOfStepsPerDayForActivityFilled
 ```
 
-* the median is :
+* The median is :
 
 ```{r echo=TRUE}
 median_totalNumberOfStepsPerDayForActivityFilled
