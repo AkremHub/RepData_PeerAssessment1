@@ -53,7 +53,7 @@ summary(activityWithOutMissingValues)
 ##                   (Other)   :13536
 ```
 
-1. Calculate the total number of steps taken per day
+1.Calculate the total number of steps taken per day
 
 
 ```r
@@ -75,7 +75,7 @@ head(totalNumberOfStepsPerDay)
 ## 5 2012-10-06 15420
 ## 6 2012-10-07 11015
 ```
-2. Make a histogram of the total number of steps taken each day
+2.Make a histogram of the total number of steps taken each day
 
 
 ```r
@@ -117,7 +117,7 @@ median_totalNumberOfStepsPerDay
 
 ## What is the average daily activity pattern?
 
-1. Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
+1.Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
 
 
 ```r
@@ -128,7 +128,7 @@ grid()
 
 ![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png) 
 
-2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
+2.Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
 ```r
 maxAverageSteps=max(meanOfStepsPerInterval$steps)
