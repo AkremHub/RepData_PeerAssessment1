@@ -88,8 +88,8 @@ hist(totalNumberOfStepsPerDay$Sum,col='blue',breaks=20,xlab = "Total Number Of S
 
 
 ```r
-mean_totalNumberOfStepsPerDay=mean(totalNumberOfStepsPerDay$Sum)
-median_totalNumberOfStepsPerDay=median(totalNumberOfStepsPerDay$Sum)
+mean_totalNumberOfStepsPerDay=mean(totalNumberOfStepsPerDay$Sum,na.rm = TRUE)
+median_totalNumberOfStepsPerDay=median(totalNumberOfStepsPerDay$Sum,na.rm = TRUE)
 ```
 * The mean is 
 
@@ -173,7 +173,7 @@ hist(totalNumberOfStepsPerDayForActivityFilled$Sum,col='blue',breaks=20,xlab = "
 
 
 ```r
-mean_totalNumberOfStepsPerDayForActivityFilled=mean(totalNumberOfStepsPerDayForActivityFilled$Sum)
+mean_totalNumberOfStepsPerDayForActivityFilled=mean(totalNumberOfStepsPerDayForActivityFilled$Sum,na.rm = TRUE)
 median_totalNumberOfStepsPerDayForActivityFilled=median(totalNumberOfStepsPerDayForActivityFilled$Sum,na.rm = TRUE)
 ```
 * The mean is 
